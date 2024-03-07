@@ -3,7 +3,7 @@ name: Lint
 on:
   push:
     paths:
-      - '../../src/tests_flask_app.py'
+      - 'src/tests_flask_app.py'
 
 jobs:
   flake8_py3:
